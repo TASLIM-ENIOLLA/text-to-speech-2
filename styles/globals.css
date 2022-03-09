@@ -1,0 +1,41 @@
+@import url("more-css/common.css");
+@import url("more-css/bootstrap.min.css");
+@import url("font-awesome/font-awesome/font-awesome.css");
+@import url("font-awesome/animate.css");
+
+::-webkit-scrollbar {
+    width: 7px;
+    height: 7px;
+}
+
+::-webkit-scrollbar-thumb {
+    cursor: pointer;
+    border-radius: 20px;
+    background: var(--theme-color);
+}
+.min-width-250px{
+    min-width: 250px;
+}
+.side-bar-list > *{
+    text-transform: capitalize;
+    display: block;
+    padding: 15px 0px 15px 30px;
+    margin-bottom: 10px;
+}
+.side-bar-list > .active{
+    border-right: 5px solid var(--dark);
+    background-color: #faf8f8
+}
+.rounded-2x{
+    border-radius: 20px;
+}
+.rounded-1x{
+    border-radius: 10px;
+}
+.rounded-half{
+    border-radius: 5px;
+}
+.thick-theme-border-left{
+    /* border: */
+    border-left: 5px solid var(--theme-color) !important;
+}
